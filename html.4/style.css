@@ -1,0 +1,121 @@
+body {
+    background: #cdb9d5;
+    font-family: arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+
+
+
+}
+
+
+.content {
+    width: 400px;
+    background: #b1a1b8;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px;
+    text-align: center;
+    padding: 10px 20px;
+    align-items: center;
+
+
+
+}
+
+.img {
+    background: #b4cfd110;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px;
+
+
+
+
+
+}
+
+.img img {
+    width: 350px;
+
+}
+
+h2 {
+    padding: 0px;
+    font-weight: 700;
+
+
+
+}
+
+
+.tag1 {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-right: 10px;
+
+}
+
+.tag2 {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+.p {
+    padding: 3px;
+}
+
+.price1 {
+    padding-left: 10px;
+    text-align: left;
+
+}
+
+.price {
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.box {
+    text-align: right;
+    padding-left: 45px;
+    padding-bottom: 45px;
+    background-color: #434278;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+
+
+
+}
+
+
+.box:hover {
+    background-color: #2b2a52;
+    transform: scale (1.05);
+
+
+}
