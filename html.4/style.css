@@ -1,29 +1,25 @@
 body {
     background: #cdb9d5;
     font-family: arial, sans-serif;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
     margin: 0;
-
-
-
 }
 
 
 .content {
-    width: 400px;
+    width: 220px;
     background: #b1a1b8;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0 10px 30px;
     text-align: center;
-    padding: 10px 20px;
+    padding: 5px 5px;
     align-items: center;
+    position: relative;
+    margin-top: 80px;
 
 
 
@@ -42,13 +38,12 @@ body {
 }
 
 .img img {
-    width: 350px;
-
+    width: 100%;
 }
 
 h2 {
-    padding: 0px;
-    font-weight: 700;
+
+    font-weight: 600;
 
 
 
@@ -78,8 +73,11 @@ h2 {
 
 }
 
-.p {
+p {
     padding: 3px;
+    font-size: 14px;
+    line-height: 1, 4;
+
 }
 
 .price1 {
@@ -118,4 +116,60 @@ h2 {
     transform: scale (1.05);
 
 
+}
+
+.fixedheader {
+    position: fixed;
+    background: black;
+    top: 0;
+    left: 0;
+    padding: 1px;
+    color: white;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+}
+
+.floatbtn1 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.floatbtn2 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.floatbtn1,
+.floatbtn2 {
+    position: absolute;
+    top: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    background: white;
+    padding: 8px;
+    border-radius: 50%;
+
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.content:hover .floatbtn1,
+.content:hover .floatbtn2 {
+    opacity: 1;
+}
+
+.content {
+    transition: 0.6s;
+}
+
+.content:hover {
+    transform: translateY(-10px);
 }
