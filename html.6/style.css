@@ -1,0 +1,334 @@
+:root {
+    font-family: "Source Sans 3";
+    --primary-color: #04AA6D;
+    --primary-hover: #059862;
+    --gray-color: #282A35;
+    --light-green-color: #96D4D4;
+    --light-pink-color: #F3ECEA;
+    --pink-color: #FFC0C7;
+    --yellow-color: #FFF080;
+    --light-graycolor: #9F9F9F;
+
+    --text-primary: #FFF;
+    --white-bg: #FFF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    height: 60px;
+    background-color: var(--white-bg);
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-left {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.header-left .img-wrapper {
+    padding: 0px 16px;
+}
+
+.header-left img {
+    width: 36px;
+}
+
+.header-left .nav-link {
+    padding: 16px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.header-left .nav-link i {
+    font-size: 10px;
+}
+
+.header-left .nav-link:hover {
+    background-color: var(--primary-color);
+}
+
+.header-left .nav-link:hover a,
+.header-left .nav-link:hover i {
+    color: var(--text-primary);
+}
+
+.header-right {
+    display: flex;
+}
+
+.header-right .nav-link {
+    padding: 8px 16px;
+}
+
+.header-right .nav-link:hover {
+    border-radius: 20px;
+    background-color: #f1f1f1;
+}
+
+.header-courses {
+    display: flex;
+    gap: 20px;
+    height: 40px;
+    padding: 0px 80px;
+    background-color: var(--gray-color);
+    align-items: center;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    color: var(--text-primary);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--text-primary);
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--gray-color);
+    /* padding-top: 120px; */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: var(--text-primary);
+}
+
+.hero h1 {
+    font-size: 64px;
+    margin: 0;
+}
+
+.hero p {
+    margin: 0;
+    font-size: 24px;
+    color: var(--yellow-color);
+}
+
+.hero a {
+    color: var(--text-primary);
+    font-size: 24px;
+}
+
+.input-wrapper {
+    display: flex;
+}
+
+.input-wrapper input {
+    padding: 8px 16px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.input-wrapper button {
+    background-color: var(--primary-color);
+    border: none;
+    height: 100%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 8px 16px;
+    color: var(--text-primary);
+}
+
+.html {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    margin: auto;
+    max-width: 1000px;
+
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.btn {
+    display: block;
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn.green {
+    background-color: #04AA6D;
+    color: whitesmoke;
+}
+
+.btn.yeloow {
+    background-color: #FFF080;
+    color: white;
+}
+
+.btn.dark {
+    background-color: #282A35;
+    color: white;
+}
+
+.html-section {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #282A35;
+    /* Tamna boja kao na slici */
+    color: white;
+
+}
+
+.hero-section {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+.content p {
+    font-size: 20px;
+    color: #FFC0C7;
+    /* Ružičasta/žućkasta nijansa sa sajta */
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+}
+
+.btn-green {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.btn-yellow {
+    background-color: #FFF4A3;
+    color: black;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+.top-container {
+    background-color: #282A35;
+    height: 150px;/ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bottom-container {
+    background-color: #D9EEE1;
+    min-height: calc(100vh - 150px);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.main-content {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-side h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+.code-card {
+    background-color: #E7E9EB;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn-green {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 25px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}

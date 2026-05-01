@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+
 
 }
 
@@ -41,7 +41,7 @@ body {
     padding: 20px;
     border-radius: 20px;
     color: white;
-    background: linear-gradient(135deg, #1c1c1c, #3a3a3a);
+
     background-image: url(google.jpg);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
@@ -89,7 +89,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     color: white;
     background: rgba(0, 0, 0, 0.4);
@@ -104,5 +104,5 @@ body {
 
 .sidebar p:hover {
     opacity: 1;
-    transform: translateX(5px);
+    transform: translateX(3px);
 }

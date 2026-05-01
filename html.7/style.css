@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #94a887;
+
+}
+
+.card {
+    background: rgb(155, 168, 148);
+    padding: 20px;
+    width: 450px;
+    text-align: center;
+    border-radius: 20px;
+    height: 400px;
+    padding-top: 80px;
+    overflow: hidden;
+
+}
+
+.card img {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+
+
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 120px;
+    border-color: #eb9595;
+    background: rgb(184, 207, 226);
+    color: rgb(0, 48, 26);
+    opacity: 0.8;
+    border-radius: 10px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+
+
+
+}
+
+button:hover {
+    opacity: 1;
+}
+
+h2 {
+    padding: 0;
+
+    font-family: "Open Sans", sans-serif;
+
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid black;
+    border-color: antiquewhite;
+    background-color: rgb(197, 165, 203);
+    font-weight: 500;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+p:hover {
+    opacity: 1;
+}
+
+.lorem {}
